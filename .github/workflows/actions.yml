@@ -3,7 +3,7 @@ name: GitHub Actions Demo
 on:
   push:
     branches:
-      - ${{ github.event.repository.default_branch }}
+      - master
 
 jobs:
   Explore-GitHub-Actions:
